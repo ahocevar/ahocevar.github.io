@@ -65,5 +65,5 @@ var projection = ol.proj.get('EPSG:21781');
 projection.setExtent([485869.5728, 76443.1884, 837076.5648, 299941.7864]);
 ```
 
-For those who want to use custom tranform functions, OpenLayes 3 has a new [ol.proj.addCoordinateTransforms()](http://ol3js.org/en/master/apidoc/ol.proj.html#addCoordinateTransforms) function. The usage is shown in the [wms-custom-proj](https://github.com/openlayers/ol3/blob/v3.0.0-gamma.2/examples/wms-custom-proj.js#L30-L42) example.
+For those who want to use custom transform functions, i.e. without relying on Proj4js, OpenLayes 3 has a new [ol.proj.addCoordinateTransforms()](http://ol3js.org/en/master/apidoc/ol.proj.html#addCoordinateTransforms) function. The usage is shown in the [wms-custom-proj](https://github.com/openlayers/ol3/blob/v3.0.0-gamma.2/examples/wms-custom-proj.js#L30-L42) example.
 
