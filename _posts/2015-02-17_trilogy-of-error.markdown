@@ -2,7 +2,7 @@
 layout: post
 title:  "Trilogy of Error (or: Simplicity FTW)"
 date:   2015-02-17 00:58:42
-categories: 
+categories: openlayers
 ---
 
 The German speaking movie [Run Lola Run](http://www.imdb.com/title/tt0130827/) was one of my favourite movies in 1998. It tells three variations of the same story with significant different outcome. The makers of [The Simpsons](http://www.imdb.com/title/tt0096697/) were also fascinated by that movie, and created the [Trilogy of Error](http://www.imdb.com/title/tt0701288/) episode as a parody in 2001. And yes, the similarity of the episode name to the Treehouse of Horror episodes is not unintended.
