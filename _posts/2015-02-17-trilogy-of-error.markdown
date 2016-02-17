@@ -25,4 +25,6 @@ Now that sounded like a cure for everything, and I created [#4391](https://githu
 
 **The solution.** After recapturing what had happened since June 2015, I came to the conclusion that so many regressions with a single component can only be caused by code that is too complicated. Bingo! Why do selected features trigger different hit detection results than features that just sit quitely on a vector layer? They shouldn't! Now I'm hoping that [#4854](https://github.com/openlayers/ol3/pull/4854) - with relevant new tests - puts an end to the never ending feature selection and hit detection story.
 
-Hopefully not to be continued - I'd rather spend my time watching Run Lola Run again :-).
+I've been working as a software developer long enough to *feel* when something is wrong in my code. And I've had this feeling since I fixed the first regression that was reported after the removal of `ol.FeatureOverlay`. The reason why I'm writing this now is because after all these months with regressions and fixes, it finally *feels* right.
+
+Usually it does not take me that long to get things right. Hopefully not to be continued - I'd rather spend my time watching Run Lola Run again :-).
