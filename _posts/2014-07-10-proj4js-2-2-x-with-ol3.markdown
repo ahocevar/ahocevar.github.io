@@ -2,7 +2,7 @@
 layout: post
 title:  "Proj4js 2.2.x with OpenLayers 3"
 date:   2014-07-10 14:10:42
-categories: openlayers
+categories:
 ---
 
 With pull request [openlayers/ol3#1228](https://github.com/openlayers/ol3/pull/1228), the API for registering coordinate transform functions has been simplified. Along with this change, support for [Proj4js](http://proj4js.org/) 2.2.x has been added to [OpenLayers 3](http://ol3js.org/) master. At the same time, transparent Proj4js 1.x integration is no longer available.
