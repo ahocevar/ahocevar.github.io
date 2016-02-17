@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Trilogy of Error (or: Simplicity FTW)"
-date:   2015-02-17 00:58:42
+date:   2016-02-17 00:58:42
 categories: openlayers
 ---
 
