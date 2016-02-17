@@ -15,7 +15,7 @@ It all started with the intention to make OpenLayers 3 simpler and better by [re
 
 **Error, episode 2.** There was an unmerged fix for an old issue from the times where we still had `ol.FeatureOverlay`: [Select interaction ignores layer filter for feature overlays](https://github.com/openlayers/ol3/issues/2940). The fix that got finally merged was an updated version of a pull request I had commented with "I really don't understand the implications of this change" - [#4143](https://github.com/openlayers/ol3/pull/4143). Not surprisingly, [another issue](https://github.com/openlayers/ol3/pull/4143#issuecomment-154513975) came up:
 
-> While the old feature overlays couldn't be filtered out, there was a way to effectively ignore them: the callback received a null layer.
+*"While the old feature overlays couldn't be filtered out, there was a way to effectively ignore them: the callback received a null layer."*
 
 Now that sounded like a cure for everything, and I created [#4391](https://github.com/openlayers/ol3/pull/4391) to implement that. But I did not add new tests.
 
